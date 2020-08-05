@@ -48,3 +48,9 @@ body {
     width: 90vw;
     max-width: 700px;
 }
+
+@media (min-widht: 700px) {
+    :root {
+        font-size: 62.5%;
+    }
+}
