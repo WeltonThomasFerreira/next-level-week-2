@@ -1,0 +1,23 @@
+{
+  "name": "next-level-week-2",
+  "version": "1.0.0",
+  "description": "NLW is an online event with a lot of practical content, challenges and hacks about web development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WeltonThomasFerreira/next-level-week-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WeltonThomasFerreira/next-level-week-2/issues"
+  },
+  "homepage": "https://github.com/WeltonThomasFerreira/next-level-week-2#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
