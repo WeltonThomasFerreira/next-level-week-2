@@ -27,8 +27,8 @@ async function pageStudy(req, res) {
             FROM class_schedule
             WHERE class_schedule.class_id = classes.id
             AND class_schedule.weekday = ${filters.weekday}
-            AND class_schedule.time_from <= ${filters.timeToMinutes}
-            AND class_schedule.time_to > ${filters.timeToMinutes}
+            AND class_schedule.time_from <= ${timeToMinutes}
+            AND class_schedule.time_to > ${timeToMinutes}
         )
         AND classes.subject = "${filters.subject}"
         `
