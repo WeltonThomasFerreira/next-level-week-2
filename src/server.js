@@ -18,7 +18,7 @@ nunjucks
 server
     .use(express.urlencoded({ extended: true }))
     .use(express.static("public"))
-    .get("/index", pageLanding)
+    .get("/", pageLanding)
     .get("/study", pageStudy)
     .get("/give-classes", pageGiveClasses)
     .post("/save-classes", saveClasses)
